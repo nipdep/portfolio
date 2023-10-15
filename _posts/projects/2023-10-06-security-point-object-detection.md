@@ -1,12 +1,12 @@
 ---
 layout: detail
-title: "Projects Template"
-description: "template for project definition"
-image: assets/images/pic06.jpg
+title: "Security Point object detection"
+description: "Person tracking and counting hardware module"
+image: assets/images/gif/g8.gif
 categories: "projects"
-type: "template"
+type: "projects"
 # permalink: /:categories/:title
-show_tile: false
+tag: "completed"
 ---
 
 <div id="main">
@@ -18,7 +18,7 @@ show_tile: false
                         <li><a href="#" class="button special small disable">Type</a><a href="#" class="button small disable">Group</a></li>
                         <li><a href="#" class="button special small disable">Area</a><a href="#" class="button small disable">DL</a></li>
 						<li><a href="#" class="button special small disable">Role</a><a href="#" class="button small disable">Data Scientist</a></li>
-						<li><a href="#" class="button special small disable"><i class="fab fa-github"></i></a><a href="#link" class="button small">Code base</a></li>
+						<li><a href="#" class="button special small disable"><i class="fab fa-github"></i></a><a href="https://github.com/nipdep/security-point-object-detection" class="button small">Code base</a></li>
                     </ul>
             </div>
 			<div>
@@ -35,10 +35,13 @@ show_tile: false
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/django.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/keras.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/tensorflow.png %}" alt="Logo 1" class="logos">
+						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
+						<img src="{% link assets/images/logos/django.png %}" alt="django" class="logos">
+						<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
+						<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
+						<img src="{% link assets/images/logos/mongodb.png %}" alt="mongoDB" class="logos">
+						<img src="{% link assets/images/logos/docker.png %}" alt="docker" class="logos">
+						<img src="{% link assets/images/logos/ec2.png %}" alt="ec2" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">
@@ -50,7 +53,7 @@ show_tile: false
 	</section>
 	<section id='third'>
 		<div class="inner no-padding">
-			<div>
+			<!-- <div>
 				<h2>Project Visualization</h2>
 				<div id="slider">  
 					<div class="slides">  
@@ -69,9 +72,8 @@ show_tile: false
 					<img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg" width="100%" />
 					</div>  
 				</div>
-				<!-- Include the external JavaScript file from the assets folder -->
 				<script src="{{ site.baseurl }}/assets/js/image_slider.js"></script>
-			</div>
+			</div> -->
 			<div>
 				<h2>Lessons Learned</h2>
 				<ul class='fa-ul'>
