@@ -61,6 +61,8 @@ order: 1
 					<div class='logos-container'>
 						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
 						<img src="{% link assets/images/logos/java.png %}" alt="java" class="logos">
+						<img src="{% link assets/images/logos/C.png %}" alt="C" class="logos">
+						<img src="{% link assets/images/logos/C++.png %}" alt="C++" class="logos">
 						<img src="{% link assets/images/logos/php.png %}" alt="php" class="logos">
 						<img src="{% link assets/images/logos/CSS.png %}" alt="CSS" class="logos">
 						<img src="{% link assets/images/logos/JS.png %}" alt="JS" class="logos">
@@ -69,6 +71,9 @@ order: 1
 						<img src="{% link assets/images/logos/Groovy.png %}" alt="Groovy" class="logos">
 						<img src="{% link assets/images/logos/ruby.png %}" alt="ruby" class="logos">
 						<img src="{% link assets/images/logos/jekyll.png %}" alt="jekyll" class="logos">
+						<img src="{% link assets/images/logos/bash.png %}" alt="bash" class="logos">
+						<img src="{% link assets/images/logos/git.png %}" alt="git" class="logos">
+						<img src="{% link assets/images/logos/github.png %}" alt="github" class="logos">
 						<img src="{% link assets/images/logos/gunicorn.png %}" alt="gunicorn" class="logos">
 						<img src="{% link assets/images/logos/PyPI.png %}" alt="pypi" class="logos">
 						<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
@@ -85,16 +90,18 @@ order: 1
 						<img src="{% link assets/images/logos/yolo.png %}" alt="yolo" class="logos">
 						<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
 						<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
+						<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
 						<img src="{% link assets/images/logos/huggingface.png %}" alt="huggingface" class="logos">
 						<img src="{% link assets/images/logos/langchain.png %}" alt="langchain" class="logos">
 						<img src="{% link assets/images/logos/matplotlib.png %}" alt="matplotlib" class="logos">
+						<img src="{% link assets/images/logos/seaborn.png %}" alt="seaborn" class="logos">
 						<img src="{% link assets/images/logos/plotly.png %}" alt="plotly" class="logos">
-						<img src="{% link assets/images/logos/tabiuau.png %}" alt="tabiuau" class="logos">
+						<img src="{% link assets/images/logos/3djs.png %}" alt="3djs" class="logos">
 						<img src="{% link assets/images/logos/threejs.png %}" alt="threejs" class="logos">
 						<img src="{% link assets/images/logos/django.png %}" alt="django" class="logos">
 						<img src="{% link assets/images/logos/flask.png %}" alt="flask" class="logos">
 						<img src="{% link assets/images/logos/fastapi.png %}" alt="fastapi" class="logos">
-						<img src="{% link assets/images/logos/h2o_wave.png %}" alt="fastapi" class="logos">
+						<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
 						<img src="{% link assets/images/logos/elk.png %}" alt="elk" class="logos">
 						<img src="{% link assets/images/logos/elasticsearch.png %}" alt="elasticsearch" class="logos">
 						<img src="{% link assets/images/logos/travisCI.png %}" alt="travisCI" class="logos">
