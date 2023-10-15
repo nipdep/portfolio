@@ -1,12 +1,12 @@
 ---
 layout: detail
-title: "Experience Template"
-description: "template for experience definition"
-image: assets/images/pic06.jpg
+title: "ML Engineer"
+description: "ML full-time Engineer @ CMLInsights"
+image: assets/images/gif/g10.gif
 categories: experiences
-type: template
+type: experience
 permalink: /:categories/:title
-show_tile: false
+tag: 2 months
 ---
 
 <div id="main">
@@ -16,8 +16,8 @@ show_tile: false
                     <ul class="actions">
                         <li><a href="#" class="button special small disable">Job Title</a><a href="#" class="button small disable">Machine Learning Engineer</a></li>
                         <li><a href="#" class="button special small disable">Job Type</a><a href="#" class="button small disable">Full-time</a></li>
-						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">H2O.ai</a></li>
-                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">Dec 2021 - Aug 2022</a></li>
+						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">CMLInsights</a></li>
+                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">Aug 2023 - today's</a></li>
                     </ul>
             </div>
 			<div>
@@ -31,9 +31,9 @@ show_tile: false
 			<div>
 				<h2>Collaborated Projects</h2>
 				<div>
-					<h3>Project-A</h3>
-					<p>Developed a fraud detection system that reduced fraudulent transactions by 25%</p>
-					<div class="row">
+					<h3>Python Library for PPSM Analysis</h3>
+					<p>Advance but robust & interactive python library to do PPSM analysis in causal ML on any dataset</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -51,12 +51,12 @@ show_tile: false
 								<a href="#" class="button small disable">Micor-services architecture</a>
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-B</h3>
-					<p>Implemented a computer vision-based quality control system, resulting in a 15% reduction in defects.</p>
-					<div class="row">
+					<h3>Benchmark Data Generation pipeline</h3>
+					<p>Building recurrent and reliable data pipeline for building benchmark datasets.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -70,12 +70,12 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-C</h3>
-					<p>Led the development of a deep learning model for image classification, improving accuracy by 18%</p>
-					<div class="row">
+					<h3>Debt Settlement Restructuring Model</h3>
+					<p>Personal Debt settlement order planning model, using heuristic based Alternating Optimization Modeling</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -89,7 +89,26 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
+				</div>
+				<div>
+					<h3>Debt Settlement Analysis</h3>
+					<p>Comprehensive analysis on debt settlement structure from aspect or company, creditor & lender as well as system runtime metrics.</p>
+					<!-- <div class="row">
+						<div class="6u 12u$(small)">
+							<h4>Technologies</h4>
+							<div class='logos-container'>
+								<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/django.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/keras.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/tensorflow.png %}" alt="Logo 1" class="logos">
+							</div>
+						</div>
+						<div class="6u$ 12u$(small) ">
+							<h4>Methodologies</h4>
+							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
+						</div>
+					</div> -->
 				</div>
 			</div>
 			<div>

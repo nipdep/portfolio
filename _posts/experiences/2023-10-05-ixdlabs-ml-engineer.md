@@ -1,12 +1,12 @@
 ---
 layout: detail
-title: "Experience Template"
-description: "template for experience definition"
-image: assets/images/pic06.jpg
+title: "ML Engineer"
+description: "ML part-time Engineer @ IXDLabs"
+image: assets/images/gif/g10.gif
 categories: experiences
-type: template
+type: experience
 permalink: /:categories/:title
-show_tile: false
+tag: 5 months
 ---
 
 <div id="main">
@@ -15,9 +15,9 @@ show_tile: false
             <div class="tag-container">
                     <ul class="actions">
                         <li><a href="#" class="button special small disable">Job Title</a><a href="#" class="button small disable">Machine Learning Engineer</a></li>
-                        <li><a href="#" class="button special small disable">Job Type</a><a href="#" class="button small disable">Full-time</a></li>
-						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">H2O.ai</a></li>
-                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">Dec 2021 - Aug 2022</a></li>
+                        <li><a href="#" class="button special small disable">Job Type</a><a href="#" class="button small disable">part-time</a></li>
+						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">IXDLabs</a></li>
+                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">Aug 2022 - May 2023</a></li>
                     </ul>
             </div>
 			<div>
@@ -31,9 +31,9 @@ show_tile: false
 			<div>
 				<h2>Collaborated Projects</h2>
 				<div>
-					<h3>Project-A</h3>
-					<p>Developed a fraud detection system that reduced fraudulent transactions by 25%</p>
-					<div class="row">
+					<h3>Twitter Profile Analyzer</h3>
+					<p>Twitter feed extraction and person space statics analysis with reply sentiment analysis.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -51,12 +51,12 @@ show_tile: false
 								<a href="#" class="button small disable">Micor-services architecture</a>
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-B</h3>
-					<p>Implemented a computer vision-based quality control system, resulting in a 15% reduction in defects.</p>
-					<div class="row">
+					<h3>GenAI based NFT generation and tagging</h3>
+					<p>Stable Diffusion & Interrogator Model based high-resolution NFT generation.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -70,12 +70,12 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-C</h3>
-					<p>Led the development of a deep learning model for image classification, improving accuracy by 18%</p>
-					<div class="row">
+					<h3>GenAI based UX/UI Sticker generation</h3>
+					<p>Avatar Sticker generation using Generative AI model, specially for UI/UX developers.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -89,7 +89,26 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
+				</div>
+				<div>
+					<h3>Object Detection and Counting System for Super-markets</h3>
+					<p>State-Of-The-Art Computer Vision based adaptable object detection & counting system to super-market shelf pieces tracking.</p>
+					<!-- <div class="row">
+						<div class="6u 12u$(small)">
+							<h4>Technologies</h4>
+							<div class='logos-container'>
+								<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/django.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/keras.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/tensorflow.png %}" alt="Logo 1" class="logos">
+							</div>
+						</div>
+						<div class="6u$ 12u$(small) ">
+							<h4>Methodologies</h4>
+							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
+						</div>
+					</div> -->
 				</div>
 			</div>
 			<div>

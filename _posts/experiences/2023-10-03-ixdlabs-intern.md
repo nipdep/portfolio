@@ -2,10 +2,11 @@
 layout: detail
 title: "ML Internship"
 description: "ML part-time internship @ IXDLabs"
-image: assets/images/pic06.jpg
+image: assets/images/gif/g10.gif
 categories: experiences
 type: experience
 permalink: /:categories/:title
+tag: 6 months
 ---
 
 <div id="main">
@@ -30,9 +31,9 @@ permalink: /:categories/:title
 			<div>
 				<h2>Collaborated Projects</h2>
 				<div>
-					<h3>Project-A</h3>
-					<p>Developed a fraud detection system that reduced fraudulent transactions by 25%</p>
-					<div class="row">
+					<h3>Hotel Review Analyzer</h3>
+					<p>BERT model based review sentiment analysis.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -46,12 +47,12 @@ permalink: /:categories/:title
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-B</h3>
-					<p>Implemented a computer vision-based quality control system, resulting in a 15% reduction in defects.</p>
-					<div class="row">
+					<h3>Hotel Reviews, Opinion mining & Clustering</h3>
+					<p>Opinion mining, topic modeling and NRE for detailed review analysis.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -65,12 +66,12 @@ permalink: /:categories/:title
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-C</h3>
-					<p>Led the development of a deep learning model for image classification, improving accuracy by 18%</p>
-					<div class="row">
+					<h3>Human tracking, counting & face detection</h3>
+					<p>Application to in real-time track people and count them as well as face detection.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -84,7 +85,7 @@ permalink: /:categories/:title
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div>

@@ -1,12 +1,12 @@
 ---
 layout: detail
-title: "Experience Template"
-description: "template for experience definition"
-image: assets/images/pic06.jpg
+title: "ML Research"
+description: "ML part-time Research @ IXDLabs"
+image: assets/images/gif/g10.gif
 categories: experiences
-type: template
+type: experience
 permalink: /:categories/:title
-show_tile: false
+tag: 7 months
 ---
 
 <div id="main">
@@ -14,10 +14,10 @@ show_tile: false
 		<div class="inner no-padding">
             <div class="tag-container">
                     <ul class="actions">
-                        <li><a href="#" class="button special small disable">Job Title</a><a href="#" class="button small disable">Machine Learning Engineer</a></li>
-                        <li><a href="#" class="button special small disable">Job Type</a><a href="#" class="button small disable">Full-time</a></li>
-						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">H2O.ai</a></li>
-                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">Dec 2021 - Aug 2022</a></li>
+                        <li><a href="#" class="button special small disable">Job Title</a><a href="#" class="button small disable">Machine Learning Researcher</a></li>
+                        <li><a href="#" class="button special small disable">Job Type</a><a href="#" class="button small disable">Part-time</a></li>
+						<li><a href="#" class="button special small disable">Company</a><a href="#" class="button small disable">IXDLabs</a></li>
+                        <li><a href="#" class="button special small disable">Employment</a><a href="#" class="button small disable">May 2022 - Today's</a></li>
                     </ul>
             </div>
 			<div>
@@ -31,9 +31,9 @@ show_tile: false
 			<div>
 				<h2>Collaborated Projects</h2>
 				<div>
-					<h3>Project-A</h3>
-					<p>Developed a fraud detection system that reduced fraudulent transactions by 25%</p>
-					<div class="row">
+					<h3>Visual Prompting & Panoptic Segmentation</h3>
+					<p>Building Panoptic Segmentation model based on Visual Prompting.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -51,12 +51,12 @@ show_tile: false
 								<a href="#" class="button small disable">Micor-services architecture</a>
 							</p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-B</h3>
-					<p>Implemented a computer vision-based quality control system, resulting in a 15% reduction in defects.</p>
-					<div class="row">
+					<h3>Conversation Spatial-Temporal Emotional Analysis</h3>
+					<p>Model to accurately detect personal emotional status based on inter-personal relationship and personal emotional history.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -70,12 +70,12 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 				<div>
-					<h3>Project-C</h3>
-					<p>Led the development of a deep learning model for image classification, improving accuracy by 18%</p>
-					<div class="row">
+					<h3>Cloth 2D-to-3D</h3>
+					<p>Model to build 3D cloth & garments from 2D single image, efficiently.</p>
+					<!-- <div class="row">
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
@@ -89,7 +89,7 @@ show_tile: false
 							<h4>Methodologies</h4>
 							<p><a href="#" class="button small disable">REST API development</a> <a href="#" class="button small disable">DBMS</a><a href="#" class="button small disable">Micor-services architecture</a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div>
