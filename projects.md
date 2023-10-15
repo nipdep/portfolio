@@ -34,8 +34,9 @@ order: 3
 					<div class="inner">
 						<header class="major">
 							<h3>{{ post.title }}</h3>
+							<a href="#" class="button special small disable">{{ post.tag }}</a>
 						</header>
-						<p>{{ post.description }} {{ post.categories }}</p>
+						<p>{{ post.description }}</p>
 						<ul class="actions">
 							<li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Learn more</a></li>
 						</ul>
