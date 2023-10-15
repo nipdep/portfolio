@@ -24,6 +24,7 @@ order: 5
 					<div class="inner">
 						<header class="major">
 							<h3>{{ post.title }}</h3>
+							<a href="#" class="button special small disable">{{ post.tag }}</a>
 						</header>
 						<p>{{ post.description }} {{ post.categories }}</p>
 						<ul class="actions">
