@@ -1,12 +1,15 @@
 ---
-layout: detail
+layout: post
 title: "Security Point object detection"
 description: "Person tracking and counting hardware module"
-image: assets/images/gif/g8.gif
+image: /assets/images/gif/g8.gif
 categories: "projects"
 type: "projects"
-# permalink: /:categories/:title
-tag: "completed"
+permalink: /:categories/:title
+tag:
+ - Research Project
+ - Computer Vision
+ - MLOps
 ---
 
 <div id="main">
@@ -35,13 +38,13 @@ tag: "completed"
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-						<img src="{% link assets/images/logos/django.png %}" alt="django" class="logos">
-						<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-						<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-						<img src="{% link assets/images/logos/mongodb.png %}" alt="mongoDB" class="logos">
-						<img src="{% link assets/images/logos/docker.png %}" alt="docker" class="logos">
-						<img src="{% link assets/images/logos/ec2.png %}" alt="ec2" class="logos">
+						<img src="{% link /assets/images/logos/python.png %}" alt="python" class="logos">
+						<img src="{% link /assets/images/logos/django.png %}" alt="django" class="logos">
+						<img src="{% link /assets/images/logos/keras.png %}" alt="keras" class="logos">
+						<img src="{% link /assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
+						<img src="{% link /assets/images/logos/mongodb.png %}" alt="mongoDB" class="logos">
+						<img src="{% link /assets/images/logos/docker.png %}" alt="docker" class="logos">
+						<img src="{% link /assets/images/logos/ec2.png %}" alt="ec2" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">

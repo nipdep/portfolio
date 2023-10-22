@@ -1,50 +1,102 @@
-plugins:
-  - jekyll-assets
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# site settings
-title: Nipdep
-subtitle: Chronicles
-email: nipun11deelaka@gmail.com
-description: 'Innovating with Intelligence: My AI Odyssey.'
-baseurl: "/nipun-portfolio" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: Wethara
-city: Polgasowita
-state: Western
-zip_code: 10320
-country: Sri Lanka
-phone: (+94) 71 190 8140
+title: "Nipun Chronicles"
+email: nipun1deelaka@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Innovating with Intelligence: My AI Odyssey.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nipun.portfolio.app" # the base hostname & protocol for your site, e.g. http://example.com
+cv_url: assets/pdf/cv.pdf
+repository: nipdep/portfolio 
+twitter: NipunDeelaka
+github: nipdep
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+header_image: /assets/images/profile_pic3.png
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: https://github.com/nipdep
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/nipun-deelaka/?originalSubdomain=lk
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+google_analytics:
+  tracking_id: G-H2K6ZWCRB5
+comments: true
+disqus: purelog-jekyll
 
-# build settings
+author: Pathirage N. Deelaka
+author_bio: >-
+  I am a self-driven recent graduate, deeply immersed in the world of deep learning and data science, equipped with a strong technical foundation. 
+  My passion lies in constantly challenging myself, stepping out of my comfort zone, and seizing every opportunity to acquire new knowledge and advancements in the realm of artificial intelligence.
+author_pic: https://brennanbrown.ca/img/avatar.png
+paginate: 4
+paginate_path: "/:num/"
+
 markdown: kramdown
 
 sass:
   style: compressed
 
-assets:
-  baseurl: /assets
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+permalink: /:title
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: Pathirage N. Deelaka
+      avatar: /assets/profile-sm.png
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: journal-entry
+      content-type: journals
+
+# Allows all pages to be put into `_pages` folder
+# for easier navigation and better SEO.
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  notes:
+    output: true
+    permalink: /notes/:title
+  journals:
+    output: true
+    permalink: /journals/:title
+
+# Exclude from processing.
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
