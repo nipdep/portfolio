@@ -18,7 +18,6 @@ layout: default
         {%- for post in posts -%}
             <section class="post">
                 <header class="feed-header">
-                    <img width="48" height="48" alt="{{post.author}}'s Avatar'" class="post-avatar" src="{{site.baseurl}}/{{post.avatar}}"/>
                     <h2 class="post-title">
                         <a href="{{ post.url | relative_url }}">
                             {{ post.title | escape }}
