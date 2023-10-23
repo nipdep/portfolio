@@ -6,7 +6,7 @@
 
     <ul id="results-container" style="display: none"></ul>
 </div>
-<script src="/assets/simple-jekyll-search.js"></script>
+<script src="{{site.baseurl}}/assets/simple-jekyll-search.js"></script>
 <script>
     function changeResultContainerDisp(val) {
         if (val) {
@@ -35,8 +35,8 @@
     var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById("search-input"),
         resultsContainer: document.getElementById("results-container"),
-        json: "/search.json",
-        searchResultTemplate: "<li class='search_res' style='list-style: none;'><a href='{{ site.url }}{url}' color: #555555;'><p><strong>></strong> {title}</p></a></li>",
+        json: "{{site.baseurl}}/search.json",
+        searchResultTemplate: "<li class='search_res' style='list-style: none;'><a href='{{ site.baseurl }}{url}' color: #555555;'><p><strong>></strong> {title}</p></a></li>",
         noResultsText: "No results found. Try another search.",
         fuzzy: false,
         limit: 5
