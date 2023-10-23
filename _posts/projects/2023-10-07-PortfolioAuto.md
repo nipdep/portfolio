@@ -37,10 +37,10 @@ tag:
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/ruby.png %}" alt="Ruby" class="logos">
-						<img src="{% link assets/images/logos/jekyll.png %}" alt="Jekyll" class="logos">
-						<img src="{% link assets/images/logos/github_actions.png %}" alt="Github Actions" class="logos">
-						<img src="{% link assets/images/logos/github.png %}" alt="Github" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/ruby.png" alt="Ruby" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/jekyll.png" alt="Jekyll" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/github_actions.png" alt="Github Actions" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/github.png" alt="Github" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">

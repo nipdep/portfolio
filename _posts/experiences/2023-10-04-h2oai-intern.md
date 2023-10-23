@@ -40,10 +40,10 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -63,12 +63,12 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/C.png %}" alt="C" class="logos">
-								<img src="{% link assets/images/logos/C++.png %}" alt="C++" class="logos">
-								<img src="{% link assets/images/logos/bash.png %}" alt="bash" class="logos">
-								<img src="{% link assets/images/logos/jenkins.png %}" alt="jenkins" class="logos">
-								<img src="{% link assets/images/logos/docker.png %}" alt="docker" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/C.png" alt="C" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/C++.png" alt="C++" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/bash.png" alt="bash" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/jenkins.png" alt="jenkins" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/docker.png" alt="docker" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -84,11 +84,11 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -104,11 +104,11 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -124,14 +124,14 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
-								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-								<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/tensorflow.png" alt="tensorflow" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -147,11 +147,11 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -167,11 +167,11 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -187,11 +187,11 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-								<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-								<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-								<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">

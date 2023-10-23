@@ -39,12 +39,12 @@ tag:
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-						<img src="{% link assets/images/logos/h2o_wave.png %}" alt="H2O-wave" class="logos">
-						<img src="{% link assets/images/logos/huggingface.png %}" alt="HuggingFace" class="logos">
-						<img src="{% link assets/images/logos/langchain.png %}" alt="LangChain" class="logos">
-						<img src="{% link assets/images/logos/nltk.png %}" alt="NLTK" class="logos">
-						<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk-learn" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="H2O-wave" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/huggingface.png" alt="HuggingFace" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/langchain.png" alt="LangChain" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/nltk.png" alt="NLTK" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk-learn" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">
