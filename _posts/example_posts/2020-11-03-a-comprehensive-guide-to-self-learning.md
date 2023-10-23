@@ -1,7 +1,7 @@
 ---
 title: A Comprehensive Guide to Self-Learning
 author: Reid Doe
-avatar: /assets/img/common/reid-avatar.png
+avatar: assets/img/common/reid-avatar.png
 categories:
   - How-To
 tags:

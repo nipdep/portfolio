@@ -2,7 +2,7 @@
 layout: post
 title: "ML Internship"
 description: "ML part-time internship @ IXDLabs"
-image: /assets/images/gif/g10.gif
+image: assets/images/gif/g10.gif
 categories: experiences
 type: experience
 permalink: /:categories/:title
@@ -41,13 +41,13 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link /assets/images/logos/python.png %}" alt="Logo 1" class="logos">
-								<img src="{% link /assets/images/logos/gensim.png %}" alt="gensim" class="logos">
-								<img src="{% link /assets/images/logos/nltk.png %}" alt="nltk" class="logos">
-								<img src="{% link /assets/images/logos/spacy.png %}" alt="spacy" class="logos">
-								<img src="{% link /assets/images/logos/textblob.png %}" alt="textblob" class="logos">
-								<img src="{% link /assets/images/logos/beautifulsoup.png %}" alt="beautifulsoup" class="logos">
-								<img src="{% link /assets/images/logos/keras.png %}" alt="keras" class="logos">
+								<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/gensim.png %}" alt="gensim" class="logos">
+								<img src="{% link assets/images/logos/nltk.png %}" alt="nltk" class="logos">
+								<img src="{% link assets/images/logos/spacy.png %}" alt="spacy" class="logos">
+								<img src="{% link assets/images/logos/textblob.png %}" alt="textblob" class="logos">
+								<img src="{% link assets/images/logos/beautifulsoup.png %}" alt="beautifulsoup" class="logos">
+								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -63,12 +63,12 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link /assets/images/logos/python.png %}" alt="Logo 1" class="logos">
-								<img src="{% link /assets/images/logos/gensim.png %}" alt="gensim" class="logos">
-								<img src="{% link /assets/images/logos/nltk.png %}" alt="nltk" class="logos">
-								<img src="{% link /assets/images/logos/textblob.png %}" alt="textblob" class="logos">
-								<img src="{% link /assets/images/logos/beautifulsoup.png %}" alt="beautifulsoup" class="logos">
-								<img src="{% link /assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
+								<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/gensim.png %}" alt="gensim" class="logos">
+								<img src="{% link assets/images/logos/nltk.png %}" alt="nltk" class="logos">
+								<img src="{% link assets/images/logos/textblob.png %}" alt="textblob" class="logos">
+								<img src="{% link assets/images/logos/beautifulsoup.png %}" alt="beautifulsoup" class="logos">
+								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -84,12 +84,12 @@ tag:
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link /assets/images/logos/python.png %}" alt="Logo 1" class="logos">
-								<img src="{% link /assets/images/logos/cv2.png %}" alt="cv2" class="logos">
-								<img src="{% link /assets/images/logos/caffe2.png %}" alt="caffe2" class="logos">
-								<img src="{% link /assets/images/logos/yolo.png %}" alt="yolo" class="logos">
-								<img src="{% link /assets/images/logos/keras.png %}" alt="keras" class="logos">
-								<img src="{% link /assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
+								<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+								<img src="{% link assets/images/logos/cv2.png %}" alt="cv2" class="logos">
+								<img src="{% link assets/images/logos/caffe2.png %}" alt="caffe2" class="logos">
+								<img src="{% link assets/images/logos/yolo.png %}" alt="yolo" class="logos">
+								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
+								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">

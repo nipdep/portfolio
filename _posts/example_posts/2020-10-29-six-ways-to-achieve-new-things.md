@@ -8,7 +8,7 @@ tags:
   - Habits
   - Inspiration
 author: Tilo Smith
-avatar: /assets/img/common/tilo-avatar.png
+avatar: assets/img/common/tilo-avatar.png
 ---
 
 > Getting back on your horse, no matter how many times you’ve fallen off.

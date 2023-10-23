@@ -8,7 +8,7 @@ tags:
   - Productivity
   - Writing
 author: Yui Doe
-avatar: /assets/img/common/yui-avatar.png
+avatar: assets/img/common/yui-avatar.png
 category: Guides
 ---
 

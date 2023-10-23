@@ -2,7 +2,7 @@
 layout: landing
 title: Achievements
 description: 'Achieve, Believe, Succeed: My Success Story'
-image: /assets/images/archivement_pic1.jpg
+image: assets/images/archivement_pic1.jpg
 nav-menu: true
 order: 5
 ---

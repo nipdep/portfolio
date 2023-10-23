@@ -6,7 +6,7 @@ tags:
   - Jekyll
   - Markdown
 author: Yui Doe
-avatar: /assets/img/common/yui-avatar.png
+avatar: assets/img/common/yui-avatar.png
 category: Example Posts
 ---
 

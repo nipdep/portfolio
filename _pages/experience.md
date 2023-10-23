@@ -2,7 +2,7 @@
 layout: landing
 title: Experience
 description: 'From Intern to Expert: My Professional Evolution'
-image: /assets/images/experience_pic1.jpg
+image: assets/images/experience_pic1.jpg
 nav-menu: true
 order: 4
 ---

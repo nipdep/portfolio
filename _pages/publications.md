@@ -2,7 +2,7 @@
 layout: landing
 title: Publications
 description: 'Data Whisperer: My Quest for AI Excellence'
-image: /assets/images/publication_pic1.jpg
+image: assets/images/publication_pic1.jpg
 nav-menu: true
 order: 2
 ---

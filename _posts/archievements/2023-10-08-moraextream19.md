@@ -2,7 +2,7 @@
 layout: post
 title: "MoraExtream'19 - 11th place"
 description: "🚀 Where the coding never stops, and the challenges keep coming! 🚀"
-image: /assets/images/gif/g11.gif
+image: assets/images/gif/g11.gif
 categories: archievements
 type: archievement
 permalink: /:categories/:title
@@ -53,7 +53,7 @@ tag:
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link /assets/images/logos/python.png %}" alt="Logo 1" class="logos">
+						<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">

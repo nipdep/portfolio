@@ -6,7 +6,7 @@ tags:
   - Jekyll
   - Markdown
 author: Eric F.
-avatar: /assets/img/common/ericf-avatar.png
+avatar: assets/img/common/ericf-avatar.png
 category: Example Posts
 ---
 
@@ -243,11 +243,11 @@ Result:
 You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
 
 ```
-| First Header | Second Header | Third Header |
-| ------------ | ------------- |----------------
-Content from cell 1 | Content from cell 2 | Content from cell 3 |
-Content in the first column | Content in the second column | Content in the third column |
-Content in the forth row A | Content in the forth row B | Content in the forth row C |
+| First Header                | Second Header                | Third Header                |
+| --------------------------- | ---------------------------- | --------------------------- |
+| Content from cell 1         | Content from cell 2          | Content from cell 3         |
+| Content in the first column | Content in the second column | Content in the third column |
+| Content in the forth row A  | Content in the forth row B   | Content in the forth row C  |
 ```
 
 | First Header                | Second Header                | Third Header                |

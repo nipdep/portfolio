@@ -8,7 +8,7 @@ repository:
 twitter:
 github:
 
-header_image: /assets/profile.png
+header_image: assets/profile.png
 
 google_analytics:
 comments: false
@@ -43,7 +43,7 @@ defaults:
     values:
       layout: "post"
       author:
-      avatar: /assets/profile-sm.png
+      avatar: assets/profile-sm.png
   - scope:
       path: ""
       type: notes

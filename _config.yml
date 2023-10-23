@@ -17,18 +17,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: "Nipun Chronicles"
 email: nipun1deelaka@gmail.com
 description: "Innovating with Intelligence: My AI Odyssey."
-baseurl: "/nipun-portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: ""
 cv_url: assets/pdf/cv.pdf
-repository: nipdep/portfolio 
+repository: nipdep/portfolio
 twitter: NipunDeelaka
 github: nipdep
 
-header_image: /assets/images/profile_pic3.png
+header_image: assets/images/profile_pic3.png
 
 google_analytics:
   tracking_id: G-H2K6ZWCRB5
@@ -58,6 +57,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-assets
 permalink: /:title
 
 defaults:
@@ -67,7 +67,7 @@ defaults:
     values:
       layout: "post"
       author: Pathirage N. Deelaka
-      avatar: /assets/profile-sm.png
+      avatar: assets/profile-sm.png
   - scope:
       path: ""
       type: notes

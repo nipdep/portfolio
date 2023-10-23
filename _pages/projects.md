@@ -2,7 +2,7 @@
 layout: landing
 title: "Projects"
 description: 'Innovate, Create, Repeat: My Project Journey'
-image: /assets/images/projects_pic1.jpg
+image: assets/images/projects_pic1.jpg
 nav-menu: true
 order: 3
 ---

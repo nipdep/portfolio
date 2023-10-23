@@ -9,7 +9,7 @@ tags:
   - Inspiration
   - Habits
 author: Reid Doe
-avatar: /assets/img/common/reid-avatar.png
+avatar: assets/img/common/reid-avatar.png
 category: How-To
 ---
 

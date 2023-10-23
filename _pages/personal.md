@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-image: /assets/images/profile_pic2.jpg
+image: assets/images/profile_pic2.jpg
 nav-menu: true
 order: 1
 ---

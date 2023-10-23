@@ -6,7 +6,7 @@ tags:
   - Jekyll
   - Markdown
 author: Andrew Smith
-avatar: /assets/img/common/andrew-avatar.png
+avatar: assets/img/common/andrew-avatar.png
 category: Example Posts
 ---
 
