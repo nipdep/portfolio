@@ -21,7 +21,7 @@ title: "Nipun Chronicles"
 email: nipun1deelaka@gmail.com
 description: "Innovating with Intelligence: My AI Odyssey."
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: ""
+url: "/"
 cv_url: assets/pdf/cv.pdf
 repository: nipdep/portfolio
 twitter: NipunDeelaka
