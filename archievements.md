@@ -25,7 +25,7 @@ order: 5
                         Tagged:
                         <span>
                             {% for tag in post.tags %}
-                                <a href="/tags/#{{ tag }}">#{{ tag }}</a>
+                                <a href="{{site.baseurl}}/tags/#{{ tag }}">#{{ tag }}</a>
                             {% endfor %}
                         </span>
                     </p>

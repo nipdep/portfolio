@@ -11,7 +11,7 @@ content-type: eg
         <h3 id="{{ tag | first }}">{{ tag | first }}</h3>
         <ul>
         {% for post in tag.last %}
-            <li><a href="{{post.url}}">{{ post.title }}</a></li>
+            <li><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
     </div>
