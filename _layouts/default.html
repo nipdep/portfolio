@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
 
 {%- include head.html -%}
 
@@ -15,7 +15,7 @@
                     <a class="jekyll-header" href="/">Welcome to {{site.title}}</a>
                 </h1> -->
                 {%- include links.html -%}
-                {%- include search.html -%}
+                <!-- {%- include search.html -%} -->
             </div>
             <div>
                 {{ content }}

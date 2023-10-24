@@ -17,8 +17,13 @@ github: nipdep
 
 header_image: assets/images/profile_pic3.png
 
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+
 google_analytics:
   tracking_id: G-H2K6ZWCRB5
+
 comments: true
 disqus: purelog-jekyll
 

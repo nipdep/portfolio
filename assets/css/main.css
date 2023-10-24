@@ -1,11 +1,73 @@
 @import 'font-awesome.min.css';
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:wght@400;700;800&display=swap");
 
+:root {
+  --grid-unit: 1rem;
+  --border-radius-base: 0.5rem;
+}
+
+[data-theme="light"] {
+  --bg: #FFF;
+  --bg-secondary: #f3f4f6;
+  --headings: #1e293b;
+  --text: #374151;
+  --text-secondary: #6b7280;
+  --links: #6366f1;
+  --highlight: #FFECB2; 
+  --code-text: #9D174D;
+  --share-text: #999;
+}
+
+[data-theme="dark"] {
+  --headings: #74c0fc;
+  --links: #91A7FF;
+  --highlight: #41C7C7;
+  --bg: #2d3136;
+  --bg-secondary: #323945;
+  --text: #adb5bd;
+  --text-secondary: #9CA3AF;
+  --code-text: #91A7FF;
+  --share-text: #C4C4C4;
+}
+
+/* example use of CSS custom properties */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings);
+}
+p, strong, b, em, small, li, hr, table, figcaption {
+  color: var(--text);
+}
+
+blockquote, button {
+  background-color: var(--bg-secondary);
+  border: 1px var(--border) solid;
+}
+
+button.theme-toggle {
+  background-color: var(--bg);
+  border: 1px var(--border) solid;
+  padding: 0px 10px 0px 0px;
+}
+
+svg.theme-toggle{
+  padding: 0px 0px 0px 0px;
+}
+
+a {
+  color: var(--links);
+}
+*:target { background-color: var(--bg-secondary); }
 
 h1,
 h2,
@@ -29,6 +91,27 @@ ul{
     cursor: default;
     list-style: none;
     padding-left: 0;
+  }
+
+  .theme-toggle {
+    color: var(--text);
+    background-color: transparent;
+    padding: 4px;
+    cursor: pointer;
+    margin: 1em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border: 2px transparent solid;
+    outline: none;
+  }
+  
+  .theme-toggle:hover {
+    color: var(--links);
+    outline: none;
+  }
+  .theme-toggle:focus {
+    outline: none;
   }
   
   &.actions li {
@@ -449,7 +532,7 @@ footer .pure-menu-link:hover {
 
 .post-meta {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: var(--text-secondary);
   margin: 0;
 }
 
@@ -650,7 +733,7 @@ footer ul {
   border-right: 1px grey solid;
   margin-left: -4px;
   text-decoration: none;
-  color: #333;
+  color: var(--text-secondary);
   margin-top: 10px;
 }
 
@@ -667,7 +750,7 @@ footer ul {
 .hashtags,
 .categories,
 .archive,
-.rss,
+.experience,
 .projects,
 .donate {
   display: inline-block;
@@ -689,7 +772,7 @@ footer ul {
   color: #56712d;
 }
 
-.rss i {
+.experience i {
   color: #cfa531;
 }
 
