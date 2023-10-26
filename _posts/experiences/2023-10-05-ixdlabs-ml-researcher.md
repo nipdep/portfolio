@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ML Research"
+title: "Senior Data Scientist"
 description: "ML part-time Research @ IXDLabs"
 image: assets/images/gif/g10.gif
 categories: experiences
@@ -69,7 +69,8 @@ tag:
 								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/tensorflow.png" alt="tensorflow" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
-								<img src="{{site.baseurl}}/assets/images/logos/cv2.png" alt="cv2" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/spacy.png" alt="spacy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/nltk.png" alt="nltk" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -86,8 +87,6 @@ tag:
 							<h4>Technologies</h4>
 							<div class='logos-container'>
 								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
-								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
-								<img src="{{site.baseurl}}/assets/images/logos/tensorflow.png" alt="tensorflow" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/cv2.png" alt="cv2" class="logos">
 							</div>
