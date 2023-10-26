@@ -1,12 +1,14 @@
 ---
-layout: detail
+layout: post
 title: "Portfolio Auto"
 description: "Portfolio building and deployment cookie cutter project."
 image: assets/images/gif/g8.gif
 categories: "projects"
 type: "projects"
-# permalink: /:categories/:title
-tag: "Completed"
+permalink: /:categories/:title
+tag:
+ - Framework Development
+ - Productivity
 ---
 
 <div id="main">
@@ -35,10 +37,10 @@ tag: "Completed"
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/ruby.png %}" alt="Ruby" class="logos">
-						<img src="{% link assets/images/logos/jekyll.png %}" alt="Jekyll" class="logos">
-						<img src="{% link assets/images/logos/github_actions.png %}" alt="Github Actions" class="logos">
-						<img src="{% link assets/images/logos/github.png %}" alt="Github" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/ruby.png" alt="Ruby" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/jekyll.png" alt="Jekyll" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/github_actions.png" alt="Github Actions" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/github.png" alt="Github" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">
@@ -73,7 +75,7 @@ tag: "Completed"
 					<img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg" width="100%" />
 					</div>  
 				</div>
-				<script src="{{ site.baseurl }}/assets/js/image_slider.js"></script>
+				<script src="{{ site.baseurl }}assets/js/image_slider.js"></script>
 			</div> -->
 			<div>
 				<h2>Lessons Learned</h2>

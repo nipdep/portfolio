@@ -1,12 +1,13 @@
 ---
-layout: detail
+layout: post
 title: "MoraExtream'19 - 11th place"
-description: "template for experience definition"
+description: "🚀 Where the coding never stops, and the challenges keep coming! 🚀"
 image: assets/images/gif/g11.gif
 categories: archievements
 type: archievement
 permalink: /:categories/:title
-tag: 1th place
+tag:
+ - Competitive Programming
 ---
 
 <div id="main">
@@ -15,28 +16,28 @@ tag: 1th place
             <div class="table-container">
             <table>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable">Competition Title</a></td>
-                    <td class="second-column"><a href="#" class="button small disable">MoraExtream 2019 - Competitive Programming Competition</a></td>
+                    <td class="first-column"><a href="#" class="special small disable">Competition Title</a></td>
+                    <td class="second-column"><a href="#" class="small disable">MoraExtream 2019 - Competitive Programming Competition</a></td>
                 </tr>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable">Organizer</a></td>
-                    <td class="second-column"><a href="#" class="button small disable">IEEEXtream</a></td>
+                    <td class="first-column"><a href="#" class="special small disable">Organizer</a></td>
+                    <td class="second-column"><a href="#" class="small disable">IEEEXtream</a></td>
                 </tr>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable">Year</a></td>
-                    <td class="second-column"><a href="#" class="button small disable">Aug 2019</a></td>
+                    <td class="first-column"><a href="#" class="special small disable">Year</a></td>
+                    <td class="second-column"><a href="#" class="small disable">Aug 2019</a></td>
                 </tr>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable">Place</a></td>
-                    <td class="second-column"><a href="#" class="button small disable">11th place</a></td>
+                    <td class="first-column"><a href="#" class="special small disable">Place</a></td>
+                    <td class="second-column"><a href="#" class="small disable">11th place</a></td>
                 </tr>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable">Team</a></td>
-                    <td class="second-column"><a href="#" class="button small disable">Tharindu, Namal</a></td>
+                    <td class="first-column"><a href="#" class="special small disable">Team</a></td>
+                    <td class="second-column"><a href="#" class="small disable">Tharindu, Namal</a></td>
                 </tr>
                 <tr>
-                    <td class="first-column"><a href="#" class="button special small disable"><i class="fab fa-github"></i>Code</a></td>
-                    <td class="second-column"><a href="#" class="button special small disable"><i class="fa-solid fa-file-pdf"></i>Paper</a></td>
+                    <td class="first-column"><a href="#" class="special small disable"><i class="fab fa-github"></i> Code</a></td>
+                    <td class="second-column"><a href="#" class="special small disable"><i class="fa fa-file-pdf-o"></i> Paper</a></td>
                 </tr>
             </table>
             </div>
@@ -46,24 +47,21 @@ tag: 1th place
 		<div class="inner no-padding">
 			<div>
 				<h2>Description</h2>
-				<p> As a Machine Learning Engineer at XYZ Tech Solutions, I lead the development of machine learning models for natural language processing tasks. My responsibilities include data preprocessing, model development, and performance optimization. I collaborate with cross-functional teams to implement ML solutions for various projects.</p>
+				<p> MoraExtreme, our 12-hour competitive coding competition, is not just a contest; it's a crucible for testing our ability to think critically and rapidly develop solutions. The heart of MoraExtreme lies in its coding challenges, which are intricately designed around dynamic programming, divide and conquer algorithms, pathfinding, and the manipulation of data structures.</p>
 			</div>
 			<div class="row">
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/django.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/keras.png %}" alt="Logo 1" class="logos">
-						<img src="{% link assets/images/logos/tensorflow.png %}" alt="Logo 1" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="Logo 1" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">
 					<h3>Methodologies</h3>
 					<p>
-                        <a href="#" class="button small disable">REST API development</a>
-                        <a href="#" class="button small disable">DBMS</a>
-                        <a href="#" class="button small disable">Micor-services architecture</a>
+                        <a href="#" class="button small disable">Effective Data Structure Usage</a>
+                        <a href="#" class="button small disable">Variety of Algorithmic Paradigms</a>
+                        <a href="#" class="button small disable">Time Pressure</a>
                     </p>
 				</div>
 			</div>
@@ -74,9 +72,9 @@ tag: 1th place
 			<div>
 				<h2>Key Achievements</h2>
                 <ul class='fa-ul'>
-                    <li><i class="fa-li fa fa-check-square"></i>Developed a sentiment analysis model with an accuracy improvement of 15%</li>
-                    <li><i class="fa-li fa fa-check-square"></i>Led a team of data scientists in building a recommendation system that increased user engagement by 20%</li>
-                    <li><i class="fa-li fa fa-check-square"></i>Implemented a production-ready chatbot using state-of-the-art NLP techniques, reducing customer support response time by 30%</li>
+                    <li><i class="fa-li fa fa-check-square"></i><b>Enhanced Problem-Solving Skills:</b> Participants honed their critical thinking skills and problem-solving abilities under tight deadlines, fostering a culture of innovation and agility.</li>
+                    <li><i class="fa-li fa fa-check-square"></i><b>Deepened Algorithmic Knowledge:</b> The competition's heavy reliance on dynamic programming and divide and conquer algorithms deepened participants' understanding of these essential concepts.</li>
+                    <li><i class="fa-li fa fa-check-square"></i><b>Advanced Data Structure Expertise:</b> MoraExtreme challenged participants to define and manipulate data structures with precision and efficiency.</li>
                 </ul>
 			</div>
 		</div>

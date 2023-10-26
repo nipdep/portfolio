@@ -1,6 +1,6 @@
 ---
-layout: landing
-title: Who am I?
+layout: page
+title: About Me
 image: assets/images/profile_pic2.jpg
 nav-menu: true
 order: 1
@@ -11,47 +11,47 @@ order: 1
 	<!-- Two -->
 	<section id="one">
 		<div class="inner no-padding">
-			<header class="major">
+			<!-- <header class="major">
 				<h1>Me ?</h1>
-			</header>
+			</header> -->
 			<div>
-				<p>"I am a self-driven recent graduate, deeply immersed in the world of deep learning and data science, equipped with a strong technical foundation. My passion lies in constantly challenging myself, stepping out of my comfort zone, and seizing every opportunity to acquire new knowledge and advancements in the realm of artificial intelligence."</p>
+				<p class='actions'>"I am a self-driven recent graduate, deeply immersed in the world of deep learning and data science, equipped with a strong technical foundation. My passion lies in constantly challenging myself, stepping out of my comfort zone, and seizing every opportunity to acquire new knowledge and advancements in the realm of artificial intelligence."</p>
 			</div>
 			<div class="row">
 				<div class="6u 12u$(small)">
 					<div class="table-container">
 					<table>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Name</a></td>
-							<td class="second-column"><a href="#" class="button small disable">Pathirage Nipun Deelaka</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Name</a></td>
+							<td class="second-column"><a href="#" class="small disable">Pathirage Nipun Deelaka</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Occupation</a></td>
-							<td class="second-column"><a href="#" class="button small disable">Machine Learning Engineer</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Occupation</a></td>
+							<td class="second-column"><a href="#" class="small disable">Machine Learning Engineer</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Education</a></td>
-							<td class="second-column"><a href="#" class="button small disable">UoM Undergraduate</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Education</a></td>
+							<td class="second-column"><a href="#" class="small disable">UoM Undergraduate</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Research Publications</a></td>
-							<td class="second-column"><a href="#" class="button small disable">4</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Research Publications</a></td>
+							<td class="second-column"><a href="#" class="small disable">4</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Active Research</a></td>
-							<td class="second-column"><a href="#" class="button small disable">2</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Active Research</a></td>
+							<td class="second-column"><a href="#" class="small disable">2</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Working Years</a></td>
-							<td class="second-column"><a href="#" class="button small disable">3 years</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Working Years</a></td>
+							<td class="second-column"><a href="#" class="small disable">3 years</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Completed Projects</a></td>
-							<td class="second-column"><a href="#" class="button small disable">28</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Completed Projects</a></td>
+							<td class="second-column"><a href="#" class="small disable">28</a></td>
 						</tr>
 						<tr>
-							<td class="first-column"><a href="#" class="button special small disable">Active Projects</a></td>
-							<td class="second-column"><a href="#" class="button small disable">4</a></td>
+							<td class="first-column"><a href="#" class="special small disable">Active Projects</a></td>
+							<td class="second-column"><a href="#" class="small disable">4</a></td>
 						</tr>
 					</table>
 					</div>
@@ -59,62 +59,6 @@ order: 1
 				<div class="6u$ 12u$(small)">
 					<!-- <h3>Technologies</h3> -->
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-						<img src="{% link assets/images/logos/java.png %}" alt="java" class="logos">
-						<img src="{% link assets/images/logos/C.png %}" alt="C" class="logos">
-						<img src="{% link assets/images/logos/C++.png %}" alt="C++" class="logos">
-						<img src="{% link assets/images/logos/php.png %}" alt="php" class="logos">
-						<img src="{% link assets/images/logos/CSS.png %}" alt="CSS" class="logos">
-						<img src="{% link assets/images/logos/JS.png %}" alt="JS" class="logos">
-						<img src="{% link assets/images/logos/node.png %}" alt="node" class="logos">
-						<img src="{% link assets/images/logos/html.png %}" alt="CSS" class="logos">
-						<img src="{% link assets/images/logos/Groovy.png %}" alt="Groovy" class="logos">
-						<img src="{% link assets/images/logos/ruby.png %}" alt="ruby" class="logos">
-						<img src="{% link assets/images/logos/jekyll.png %}" alt="jekyll" class="logos">
-						<img src="{% link assets/images/logos/bash.png %}" alt="bash" class="logos">
-						<img src="{% link assets/images/logos/git.png %}" alt="git" class="logos">
-						<img src="{% link assets/images/logos/github.png %}" alt="github" class="logos">
-						<img src="{% link assets/images/logos/gunicorn.png %}" alt="gunicorn" class="logos">
-						<img src="{% link assets/images/logos/PyPI.png %}" alt="pypi" class="logos">
-						<img src="{% link assets/images/logos/numpy.png %}" alt="numpy" class="logos">
-						<img src="{% link assets/images/logos/pandas.png %}" alt="pandas" class="logos">
-						<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk_learn" class="logos">
-						<img src="{% link assets/images/logos/gensim.png %}" alt="gensim" class="logos">
-						<img src="{% link assets/images/logos/nltk.png %}" alt="nltk" class="logos">
-						<img src="{% link assets/images/logos/spacy.png %}" alt="spacy" class="logos">
-						<img src="{% link assets/images/logos/textblob.png %}" alt="textblob" class="logos">
-						<img src="{% link assets/images/logos/beautifulsoup.png %}" alt="beautifulsoup" class="logos">
-						<img src="{% link assets/images/logos/gradio.png %}" alt="gradio" class="logos">
-						<img src="{% link assets/images/logos/cv2.png %}" alt="cv2" class="logos">
-						<img src="{% link assets/images/logos/caffe2.png %}" alt="caffe2" class="logos">
-						<img src="{% link assets/images/logos/yolo.png %}" alt="yolo" class="logos">
-						<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-						<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-						<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
-						<img src="{% link assets/images/logos/huggingface.png %}" alt="huggingface" class="logos">
-						<img src="{% link assets/images/logos/langchain.png %}" alt="langchain" class="logos">
-						<img src="{% link assets/images/logos/matplotlib.png %}" alt="matplotlib" class="logos">
-						<img src="{% link assets/images/logos/seaborn.png %}" alt="seaborn" class="logos">
-						<img src="{% link assets/images/logos/plotly.png %}" alt="plotly" class="logos">
-						<img src="{% link assets/images/logos/3djs.png %}" alt="3djs" class="logos">
-						<img src="{% link assets/images/logos/threejs.png %}" alt="threejs" class="logos">
-						<img src="{% link assets/images/logos/django.png %}" alt="django" class="logos">
-						<img src="{% link assets/images/logos/flask.png %}" alt="flask" class="logos">
-						<img src="{% link assets/images/logos/fastapi.png %}" alt="fastapi" class="logos">
-						<img src="{% link assets/images/logos/h2o_wave.png %}" alt="h2o_wave" class="logos">
-						<img src="{% link assets/images/logos/elk.png %}" alt="elk" class="logos">
-						<img src="{% link assets/images/logos/elasticsearch.png %}" alt="elasticsearch" class="logos">
-						<img src="{% link assets/images/logos/travisCI.png %}" alt="travisCI" class="logos">
-						<img src="{% link assets/images/logos/jenkins.png %}" alt="jenkins" class="logos">
-						<img src="{% link assets/images/logos/selenium.png %}" alt="selenium" class="logos">
-						<img src="{% link assets/images/logos/mongodb.png %}" alt="mongodb" class="logos">
-						<img src="{% link assets/images/logos/my_sql.png %}" alt="my_sql" class="logos">
-						<img src="{% link assets/images/logos/postgre_sql.png %}" alt="postgre_sql" class="logos">
-						<img src="{% link assets/images/logos/aws.png %}" alt="aws" class="logos">
-						<img src="{% link assets/images/logos/ec2.png %}" alt="ec2" class="logos">
-						<img src="{% link assets/images/logos/docker.png %}" alt="docker" class="logos">
-						<img src="{% link assets/images/logos/kubenetes.png %}" alt="kubenetes" class="logos">
-						<img src="{% link assets/images/logos/ibm_cloud.png %}" alt="ibm_cloud" class="logos">
 					</div>
 				</div>
 			</div>
@@ -127,21 +71,25 @@ order: 1
 					<header class="major">
 						<h1>Fields of Interest</h1>
 					</header>
-					<p><a href="#" class="button small disable">Machine Learning</a>
+					<p class='actions'> 
+						<a href="#" class="button small disable">Machine Learning</a>
 						<a href="#" class="button small disable">Deep Learning</a>
 						<a href="#" class="button small disable">Computer Vision</a>
 						<a href="#" class="button small disable">Natural Language Processing</a>
 						<a href="#" class="button small disable">Explainable AI</a>
-						<a href="#" class="button small disable">Causal ML</a></p>
+						<a href="#" class="button small disable">Causal ML</a>
+					</p>
 				</div>
 				<div class="6u$ 12u$(small)">
 					<header class="major">
 						<h1>Soft Skills</h1>
 					</header>
-					<p><a href="#" class="button small disable">Communication</a>
-					<a href="#" class="button small disable">Critical Thinking</a>
-					<a href="#" class="button small disable">Problem Solving</a>
-					<a href="#" class="button small disable">Time Management</a></p>
+					<p class='actions'>
+						<a href="#" class="button small disable">Communication</a>
+						<a href="#" class="button small disable">Critical Thinking</a>
+						<a href="#" class="button small disable">Problem Solving</a>
+						<a href="#" class="button small disable">Time Management</a>
+					</p>
 				</div>
 			</div>
 		</div>
