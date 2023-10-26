@@ -110,7 +110,7 @@ order: 1
 						<img src="{{site.baseurl}}/assets/images/logos/jekyll.png" alt="jekyll" class="logos">
 						<img src="{{site.baseurl}}/assets/images/logos/bash.png" alt="bash" class="logos">
 						<img src="{{site.baseurl}}/assets/images/logos/git.png" alt="git" class="logos">
-						<img src="{{site.baseurl}}/assets/images/logos/github.png" alt="github" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/github_actions.png" alt="github_actions" class="logos">
 						<img src="{{site.baseurl}}/assets/images/logos/gunicorn.png" alt="gunicorn" class="logos">
 						<img src="{{site.baseurl}}/assets/images/logos/PyPI.png" alt="pypi" class="logos">
 						<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
