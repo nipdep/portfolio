@@ -1,40 +1,41 @@
+# Build settings
 plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-assets
+  
+title: "Nipun Chronicles"
+email: nipun1deelaka@gmail.com
+description: "Innovating with Intelligence: My AI Odyssey."
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: 
+portfolio_url: https://nipdep.github.io/portfolio
+cv_url: assets/pdf/cv.pdf
+repository: nipdep/portfolio
+twitter: NipunDeelaka
+github: nipdep
 
-# site settings
-title: Nipdep
-subtitle: Chronicles
-email: nipun11deelaka@gmail.com
-description: 'Innovating with Intelligence: My AI Odyssey.'
-baseurl: "/nipun-portfolio" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: Wethara
-city: Polgasowita
-state: Western
-zip_code: 10320
-country: Sri Lanka
-phone: (+94) 71 190 8140
+header_image: assets/images/profile_pic3.png
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: https://github.com/nipdep
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/nipun-deelaka/?originalSubdomain=lk
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+google_analytics:
+  tracking_id: G-H2K6ZWCRB5
 
-# build settings
+comments: true
+disqus: purelog-jekyll
+
+author: Pathirage N. Deelaka
+author_bio: >-
+  I am a self-driven recent graduate, deeply immersed in the world of deep learning and data science, equipped with a strong technical foundation. 
+  My passion lies in constantly challenging myself, stepping out of my comfort zone, and seizing every opportunity to acquire new knowledge and advancements in the realm of artificial intelligence.
+author_pic: https://brennanbrown.ca/img/avatar.png
+paginate: 4
+paginate_path: "/:num/"
+
 markdown: kramdown
 
 sass:
@@ -43,8 +44,8 @@ sass:
 assets:
   baseurl: /assets
 
+# Exclude from processing.
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"

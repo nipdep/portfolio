@@ -1,12 +1,16 @@
 ---
-layout: detail
-title: "ML Research"
+layout: post
+title: "Senior Data Scientist"
 description: "ML part-time Research @ IXDLabs"
 image: assets/images/gif/g10.gif
 categories: experiences
 type: experience
 permalink: /:categories/:title
-tag: 7 months
+tag:
+ - Deep Learning
+ - Computer Vision
+ - Natural Language Processing
+ - Machine Learning
 ---
 
 <div id="main">
@@ -37,11 +41,11 @@ tag: 7 months
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-								<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
-								<img src="{% link assets/images/logos/cv2.png %}" alt="cv2" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/tensorflow.png" alt="tensorflow" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/cv2.png" alt="cv2" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -61,11 +65,12 @@ tag: 7 months
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-								<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
-								<img src="{% link assets/images/logos/cv2.png %}" alt="cv2" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/tensorflow.png" alt="tensorflow" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/spacy.png" alt="spacy" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/nltk.png" alt="nltk" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -81,11 +86,9 @@ tag: 7 months
 						<div class="6u 12u$(small)">
 							<h4>Technologies</h4>
 							<div class='logos-container'>
-								<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-								<img src="{% link assets/images/logos/keras.png %}" alt="keras" class="logos">
-								<img src="{% link assets/images/logos/tensorflow.png %}" alt="tensorflow" class="logos">
-								<img src="{% link assets/images/logos/PyTorch.png %}" alt="PyTorch" class="logos">
-								<img src="{% link assets/images/logos/cv2.png %}" alt="cv2" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/PyTorch.png" alt="PyTorch" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/cv2.png" alt="cv2" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">

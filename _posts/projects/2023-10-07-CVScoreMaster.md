@@ -1,12 +1,15 @@
 ---
-layout: detail
+layout: post
 title: "CV Score Master"
 description: "AI based CV shortlisting and ranking system"
 image: assets/images/gif/g8.gif
 categories: "projects"
 type: "projects"
-# permalink: /:categories/:title
-tag: "Completed"
+permalink: /:categories/:title
+tag:
+ - Web Application
+ - Natural Language Processing
+ - LLM
 ---
 
 <div id="main">
@@ -36,21 +39,22 @@ tag: "Completed"
 				<div class="6u 12u$(small)">
 					<h3>Technologies</h3>
 					<div class='logos-container'>
-						<img src="{% link assets/images/logos/python.png %}" alt="python" class="logos">
-						<img src="{% link assets/images/logos/h2o_wave.png %}" alt="H2O-wave" class="logos">
-						<img src="{% link assets/images/logos/huggingface.png %}" alt="HuggingFace" class="logos">
-						<img src="{% link assets/images/logos/langchain.png %}" alt="LangChain" class="logos">
-						<img src="{% link assets/images/logos/nltk.png %}" alt="NLTK" class="logos">
-						<img src="{% link assets/images/logos/sk_learn.png %}" alt="sk-learn" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/python.png" alt="python" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="H2O-wave" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/huggingface.png" alt="HuggingFace" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/langchain.png" alt="LangChain" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/nltk.png" alt="NLTK" class="logos">
+						<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk-learn" class="logos">
 					</div>
 				</div>
 				<div class="6u$ 12u$(small) ">
 					<h3>Methodologies</h3>
 					<p>
-					  <a href="#" class="button small disable"LLM</a>
+					  <a href="#" class="button small disable">LLM</a>
 					  <a href="#" class="button small disable">Few-Shot Learning</a>
 					  <a href="#" class="button small disable">Natural Language Processing</a></p>
-					  <a href="#" class="button small disable">Prompt Engineering</a></p>
+					  <a href="#" class="button small disable">Prompt Engineering</a>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -76,7 +80,7 @@ tag: "Completed"
 					<img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg" width="100%" />
 					</div>  
 				</div>
-				<script src="{{ site.baseurl }}/assets/js/image_slider.js"></script>
+				<script src="{{ site.baseurl }}assets/js/image_slider.js"></script>
 			</div> -->
 			<div>
 				<h2>Lessons Learned</h2>
