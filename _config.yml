@@ -10,6 +10,7 @@ email: nipun1deelaka@gmail.com
 description: "Innovating with Intelligence: My AI Odyssey."
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: 
+portfolio_url: https://nipdep.github.io/portfolio
 cv_url: assets/pdf/cv.pdf
 repository: nipdep/portfolio
 twitter: NipunDeelaka

@@ -50,10 +50,11 @@ tag:
 				<div class="6u$ 12u$(small) ">
 					<h3>Methodologies</h3>
 					<p>
-					  <a href="#" class="button small disable"LLM</a>
+					  <a href="#" class="button small disable">LLM</a>
 					  <a href="#" class="button small disable">Few-Shot Learning</a>
 					  <a href="#" class="button small disable">Natural Language Processing</a></p>
-					  <a href="#" class="button small disable">Prompt Engineering</a></p>
+					  <a href="#" class="button small disable">Prompt Engineering</a>
+					</p>
 				</div>
 			</div>
 		</div>

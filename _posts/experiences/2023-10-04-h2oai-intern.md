@@ -89,6 +89,7 @@ tag:
 								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -172,6 +173,8 @@ tag:
 								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/keras.png" alt="keras" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/tf.png" alt="tf" class="logos">
 							</div>
 						</div>
 						<!-- <div class="6u$ 12u$(small) ">
@@ -191,6 +194,10 @@ tag:
 								<img src="{{site.baseurl}}/assets/images/logos/h2o_wave.png" alt="h2o_wave" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/numpy.png" alt="numpy" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/pandas.png" alt="pandas" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/matplotlib.png" alt="matplotlib" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/3djs.png" alt="3djs" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/selenium.png" alt="selenium" class="logos">
+								<img src="{{site.baseurl}}/assets/images/logos/beautifulsoup.png" alt="beautifulsoup" class="logos">
 								<img src="{{site.baseurl}}/assets/images/logos/sk_learn.png" alt="sk_learn" class="logos">
 							</div>
 						</div>
